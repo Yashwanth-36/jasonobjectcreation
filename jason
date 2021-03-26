@@ -9,6 +9,10 @@ function getTemp(){
     case "bihar":my(dat)
     Logger.log("bihar")
     break
+    
+    case "Vizag": my(dat)
+            Logger.log("Vizag")
+            break
   }
   }
 catch (error){
