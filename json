@@ -26,3 +26,4 @@ function my(getData) {
   var parsedData = JSON.parse(data);
 
   Logger.log(parsedData[getData])
+}
