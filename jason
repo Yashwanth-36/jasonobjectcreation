@@ -1,16 +1,24 @@
-//hello
-//hi
-"info"=[
-  {"cityName":"london", "temp":"27"},
-  {"cityname":"newyork", "temp":"35"},
-  {"cityname":"pune", "temp":"29"},
-  {"cityname":"vskp", "temp":"39"}
-  {"cityName":"perth", "temp":"27"},
-  {"cityname":"Dallas", "temp":"35"},
-  {"cityname":"sidney", "temp":"29"},
-  {"cityname":"melbourne", "temp":"39"}
-  {"cityName":"surrey", "temp":"27"},
-  {"cityname":"hobart", "temp":"35"},
-  {"cityname":"zimaca", "temp":"29"},
-  {"cityname":"Brisbane", "temp":"39"}
-]
+function getTemp(){
+  try{
+    
+   var dat="ap"
+  switch(dat){
+    case "ap": my(dat)
+            Logger.log(dat)
+            break
+    case "bihar":my(dat)
+    Logger.log("bihar")
+    break
+  }
+  }
+catch (error){
+Logger.log(error)
+}
+
+}
+function my(getData) {
+  var data =   {"ap":30,"bihar":40}
+  data=JSON.stringify(data)
+  var parsedData = JSON.parse(data);
+
+  Logger.log(parsedData[getData])
