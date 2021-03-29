@@ -9,6 +9,10 @@ function getTemp(){
     case "bihar":my(dat)
     Logger.log("bihar")
     break
+    
+    case "Kakinada":my(dat)
+    Logger.log("Kakinada")
+    break
   }
   }
 catch (error){
@@ -17,7 +21,7 @@ Logger.log(error)
 
 }
 function my(getData) {
-  var data =   {"ap":30,"bihar":40}
+  var data =   {"ap":30,"bihar":40,"Kakinada",34}
   data=JSON.stringify(data)
   var parsedData = JSON.parse(data);
 
